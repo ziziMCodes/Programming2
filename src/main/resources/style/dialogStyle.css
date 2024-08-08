@@ -1,0 +1,21 @@
+.dialog-pane {
+    -fx-background-color: #FFEEF0;
+    -fx-border-color: #F4B0C7;
+    -fx-border-radius: 15;
+}
+
+.button {
+    -fx-background-color: #F4B0C7;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #405A80;
+    -fx-prompt-text-fill: #A8A8A8;
+    -fx-border-color: #F4B0C7;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}

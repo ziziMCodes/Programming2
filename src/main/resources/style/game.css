@@ -1,0 +1,336 @@
+.gamepane {
+    -fx-background-color: black;
+}
+
+.intro {
+    -fx-background-color: black;
+}
+
+.menu-background {
+    -fx-background-image: url("../images/finalMenu.jpg");
+    /* Set background size to contain the entire image within the gameWindow */
+    background-size: contain;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set width and height to 100% to fill the entire gameWindow */
+    width: 100%;
+    height: 100%;
+    -fx-alignment: center;
+}
+.settings-background{
+    -fx-background-image: url("../images/finalMenu.jpg");
+    /* Set background size to contain the entire image within the gameWindow */
+    background-size: contain;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set width and height to 100% to fill the entire gameWindow */
+    width: 100%;
+    height: 100%;
+    -fx-alignment: center;
+}
+.challenge-background {
+    -fx-background-image: url("../images/challenge.jpg");
+    -fx-background-size: cover;
+    /* Set background size to cover the entire gameWindow */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optionally, you can set the background to repeat if needed */
+    background-repeat: no-repeat;
+
+    /* Set width and height to 100% to fill the entire gameWindow */
+    width: 100%;
+    height: 100%;
+}
+.multiplayer-background {
+    -fx-background-image: url("../images/multiplayer.jpg");
+    -fx-background-size: cover;
+    /* Set background size to cover the entire gameWindow */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optionally, you can set the background to repeat if needed */
+    background-repeat: no-repeat;
+
+    /* Set width and height to 100% to fill the entire gameWindow */
+    width: 100%;
+    height: 100%;
+}
+.lobby-background {
+    -fx-background-image: url("../images/menu2.jpg");
+    -fx-background-size: cover;
+    /* Set background size to cover the entire gameWindow */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optionally, you can set the background to repeat if needed */
+    background-repeat: no-repeat;
+
+    /* Set width and height to 100% to fill the entire gameWindow */
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.menuItem:hover {
+    -fx-fill: yellow;
+}
+
+.menuItem.selected {
+    -fx-fill: yellow;
+}
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+.title {
+    -fx-fill: #ff9cce; /* Soft pink color */
+    -fx-font-family: 'Loker'; /* Clear and readable font */
+    -fx-font-size: 56px; /* Larger font size */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-effect: dropshadow(gaussian, #ffffff, 2, 0.5, 0, 0); /* White drop shadow */
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+.menuItem {
+    -fx-fill: lightblue;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 42px;
+    -fx-font-weight: 700;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+
+    -fx-background-color: linear-gradient(to left top, #3d0b0b 50%, #2b0808 50%);
+    -fx-padding: 40px 60px;
+    -fx-margin: 12px;
+    -fx-display: inline-block;
+    -fx-text-fill: #f7d4d4;
+    -fx-text-alignment: center;
+    -fx-text-transform: uppercase;
+    -fx-text-decoration: none;
+}
+
+
+.score {
+    -fx-fill: yellow;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+    -fx-fill: #ff6600;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.hiscore {
+    -fx-fill: yellow;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+    -fx-fill: yellow;
+    -fx-font-family: 'Loker';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.deadscore {
+    -fx-strikethrough: true;
+}
+
+
+.channelList {
+
+}
+.leaderboardItem{
+    -fx-font-family: 'Loker';
+    -fx-font-size: 16px;
+    -fx-text-fill: #405A80;
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.scroller {
+    -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+}
+
+.messages Text {
+    -fx-fill: white;
+}
+
+TextField {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Loker';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+.instructions {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+
+.stats-box {
+    -fx-padding: 10px;
+    -fx-background-color: #333;
+    -fx-spacing: 5px;
+}
+.scores-background{
+    -fx-background-image: url("../images/scores.jpg");
+    -fx-background-size: cover;
+
+}
+.scorelist, .scoreitem, .scorer, .myscorer, .points {
+    -fx-font-family: 'Loker';
+    -fx-text-fill: #405A80;
+}
+.myscorer {
+    -fx-font-weight: bold;
+    -fx-fill: #F4B0C7;
+}
+
+.scorer {
+    -fx-fill: #405A80;
+}
+
+.points {
+    -fx-fill: #FFCBDB;
+}
+
+.scoreitem {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-spacing: 10px;
+}
+.dialog-pane {
+    -fx-background-color: #FFEEF0;
+    -fx-border-color: #F4B0C7;
+    -fx-border-radius: 15;
+}
+
+.button {
+    -fx-background-color: #F4B0C7;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #405A80;
+    -fx-prompt-text-fill: #A8A8A8;
+    -fx-border-color: #F4B0C7;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+score-title {
+    -fx-font-family: 'Loker'; /* Cinnamoroll theme font */
+    -fx-fill: #FFD2E9; /* Light pink color */
+    -fx-font-size: 27px;
+}
+
