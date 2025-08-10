@@ -1,5 +1,5 @@
 # TetrECS - JavaFX-Based Block Placement Game
-This project is part of a major coursework assignment for my Programming 2 module, with an **ACHIEVED GRADE: 77/80**. The coursework involved designing and implementing a fast-paced block placement game called TetrECS, using JavaFX and various Java programming concepts. The game will not work outside of the university, due to the communicator being used for the multiplayer aspect.
+This project is part of a major coursework assignment for my Programming 2 module, with an **ACHIEVED GRADE: 77/80**. The coursework involved designing and implementing a fast-paced block placement game called TetrECS, using JavaFX and various Java programming concepts. The game will not work outside of the university, due to the communicator being used only works with VPN.
 
 ## Key Features and Implementations:
 - Game Logic: Developed the core game mechanics, including piece placement, line clearing (horizontally and vertically), score calculation, and level progression. Implemented a scoring multiplier system for consecutive line clears and a life management system where the player loses a life for each failed block placement.
